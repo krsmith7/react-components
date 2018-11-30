@@ -1,5 +1,13 @@
 .product {
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 10px;
+  /* height: 400px; */
+}
 
+.product img {
+  height: 400px;
 }
 
 .product-name {
