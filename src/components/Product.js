@@ -9,13 +9,23 @@ const Product = (props) => {
 
   return (
     <section className="product">
-      <div className="product-name">{props.name}</div>
+
       <div className="product-photo">
         <img src={props.photoUrl} alt={props.name}>
         </img>
       </div>
-      <div className="product-price">{props.standardPrice}</div>
-      <div className="product-discount">{props.discountPrice}</div>
+
+      <div className="product-name">
+        <strong>{props.name}</strong>
+      </div>
+
+      <div className="product-price">
+        {props.standardPrice}
+      </div>
+
+      <div className="product-discount">
+        {props.discountPrice}
+      </div>
     </section>
   );
 };
