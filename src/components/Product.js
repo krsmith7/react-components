@@ -19,12 +19,14 @@ const Product = (props) => {
         <strong>{props.name}</strong>
       </div>
 
-      <div className="product-price">
-        {props.standardPrice}
-      </div>
+      <div className="product-prices">
+        <div className="product-price">
+          {props.standardPrice}
+        </div>
 
-      <div className="product-discount">
-        {props.discountPrice}
+        <div className="product-discount">
+          {props.discountPrice}
+        </div>
       </div>
     </section>
   );
