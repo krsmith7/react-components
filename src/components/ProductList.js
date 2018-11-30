@@ -5,22 +5,22 @@ import Product from './Product';
 const ProductList = () => {
   const data = [
     {
-      "name": "Mermaid Comforter",
-      "photo": "https://linenstar.co.uk/wp-content/uploads/2017/11/Mermaid-duvet.jpg",
-      "price": 79.99,
-      "discounted": 45.99
+      "name": "Creature from the Black Lagoon",
+      "photo": "http://collectingclassicmonsters.com/wp-content/uploads/2015/11/Creature-from-blac-lagoon-one-seet.jpg",
+      "price": 34.56,
+      "discounted": 25.99
     },
     {
-      "name": "Zombie Mug Set",
-      "photo": "http://media.gadgetsin.com/2016/01/the_zombie_mugs_show_off_realistic_and_creepy_detailing_1.jpg",
+      "name": "Barbarella",
+      "photo": "http://ayay.co.uk/backgrounds/movie_posters/sci_fi/BARBARELLA-2.jpg",
       "price": 49.50,
       "discounted": 49.50
     },
     {
-      "name": "Unicorn Onesie",
-      "photo": "https://www.kigu.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/a/rainbow-main.jpg",
+      "name": "World of the Gods",
+      "photo": "http://www.stayinwonderland.com/wp-content/uploads/03_World-Of-The-Gods.jpg",
       "price": 59.69,
-      "discounted": 55.99
+      "discounted": 45.69
     }
   ];
 
@@ -30,7 +30,7 @@ const ProductList = () => {
   });
 
   return (
-    <section>
+    <section className="product-list">
       {productCollection}
     </section>
   );
