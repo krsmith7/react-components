@@ -8,13 +8,16 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-
-          <p>
-            <ProductList />
-          </p>
-
+          <h1>Vintage Movie Posters</h1>
         </header>
+        <main>
+          <section className= "app-product-section">
+            <ProductList />
+          </section>
+        </main>
       </div>
+
+
     );
   }
 }
